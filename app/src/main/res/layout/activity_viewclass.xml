@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ACDAFF"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Button2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffff00">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingStart="40dp"
+            android:backgroundTint="@color/black"
+            android:text="Button3"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button4"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="있을 위하여, 길을 인류의 없는 아니한 곳이 청춘의 부패뿐이다. 관현악이며, 꽃 뼈 것은 위하여 우리의 피어나기 그림자는 트고, 듣는다. 별과 인생의 않는 예가 끝에 바로 평화스러운 얼마나 열락의 부패뿐이다. 길을 무엇을 피는 인간에 황금시대를 뿐이다. 힘차게 때에, 스며들어 내려온 싹이 이상이 속잎나고, 황금시대다. 그러므로 그들에게 심장은 얼마나 동산에는 청춘은 황금시대다. 이상은 인생을 천하를 보이는 것이다.현악이며, 몸이 이것을 꽃 내는 인간은 풀이 말이다. 장식하는 품으며, 있는 무한한 과실이 가장 때문이다. 이 듣기만 끓는 이상은 끓는다. 이상이 피는 같은 보이는 커다란 우는 힘차게 그것을 웅대한 것이다. 보는 끝에 봄바람을 길을 청춘의 얼음과 피다. 석가는 밝은 때까지 인간의 아니다.
+천자만홍이 꾸며 얼음과 장식하는 그들을 주며, 사막이다. 설레는 같이 가치를 있으랴? 것은 위하여 가는 내는 동산에는 수 그들은 기관과 이것이다. 방황하여도, 그러므로 따뜻한 물방아 하는 같이, 대고, 약동하다. 있음으로써 밝은 되는 얼음이 행복스럽고 자신과 용감하고 피어나는 미인을 교향악이다. 끓는 것이 그들의 끓는다. 되려니와, 수 인간이 미묘한 실로 안고, 대중을 뿐이다." />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/garados"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"/>
+
+</LinearLayout>
