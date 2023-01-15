@@ -7,16 +7,69 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView4"
+        style="@style/MyTextStyleSub"
         android:layout_width="411dp"
         android:layout_height="48dp"
-        android:text="코틀린 안드로이드 스튜디오"
-        style="@style/MyTextStyleSub"
         android:gravity="center"
+        android:text="코틀린 안드로이드 스튜디오"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_doitLogin06doit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="doit:login"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <Button
+        android:id="@+id/btn_keypad07doit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="doit:keypad"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <Button
+        android:id="@+id/btn_stopWatch08doit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="doit:스톱워치"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <Button
+        android:id="@+id/btn_messenger09doit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="doit:메신저인트로"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.249" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

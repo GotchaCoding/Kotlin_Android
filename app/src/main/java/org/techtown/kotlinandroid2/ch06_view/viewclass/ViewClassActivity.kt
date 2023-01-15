@@ -15,10 +15,5 @@ class ViewClassActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-//        val textView1 : TextView =findViewById(R.id.txt1);
-
-        //제네릭으로 명시
-//        val textView2 = findViewById<TextView>(R.id.txt1);
-
     }
 }
