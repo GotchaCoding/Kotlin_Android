@@ -8,6 +8,7 @@ import org.techtown.kotlinandroid2.ch06_view.doit.LoginActivity
 import org.techtown.kotlinandroid2.ch07_layout.doit.KeypadActivity
 import org.techtown.kotlinandroid2.ch08_event.doit.StopWatchActivity
 import org.techtown.kotlinandroid2.ch09_resource.doit.MessengerActivity
+import org.techtown.kotlinandroid2.ch10_dialog.DialogActivity
 import org.techtown.kotlinandroid2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -37,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnDialog10.setOnClickListener {
+            val intent = Intent(this, DialogActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
