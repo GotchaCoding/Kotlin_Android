@@ -66,7 +66,9 @@ class DialogActivity : AppCompatActivity() {
 //            })
 //            show()}
 
-
+        /**
+         *커스텀 다이얼로그
+         */
         val dialogBinding = ActivityDialogBinding.inflate(layoutInflater)
         //목록출력
         AlertDialog.Builder(this).run {
