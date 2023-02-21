@@ -10,6 +10,10 @@ import org.techtown.kotlinandroid2.ch08_event.doit.StopWatchActivity
 import org.techtown.kotlinandroid2.ch09_resource.doit.MessengerActivity
 import org.techtown.kotlinandroid2.ch10_dialog.DialogActivity
 import org.techtown.kotlinandroid2.ch11_jetpack.ActionBarActivity
+import org.techtown.kotlinandroid2.ch11_jetpack.drawer.DrawerActivity
+import org.techtown.kotlinandroid2.ch11_jetpack.fragment.FragmentActivity
+import org.techtown.kotlinandroid2.ch11_jetpack.viewpager.ViewPagerActivity
+import org.techtown.kotlinandroid2.ch11_jetpack.viewpager.doit.JetpackActivity
 import org.techtown.kotlinandroid2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -46,6 +50,26 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnAppcommaptLibrary.setOnClickListener {
             val intent = Intent(this, ActionBarActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnFragment.setOnClickListener {
+            val intent = Intent(this, FragmentActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnViewPager.setOnClickListener {
+            val intent = Intent(this, ViewPagerActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnDrawerLayout.setOnClickListener {
+            val intent = Intent(this, DrawerActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnJetpack.setOnClickListener {
+            val intent = Intent(this, JetpackActivity::class.java)
             startActivity(intent)
         }
     }

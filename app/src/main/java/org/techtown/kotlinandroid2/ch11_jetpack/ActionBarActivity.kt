@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.SearchView
+import androidx.appcompat.widget.SearchView
 import org.techtown.kotlinandroid2.R
 import org.techtown.kotlinandroid2.databinding.ActivityAppcompatLibraryBinding
 import org.techtown.kotlinandroid2.databinding.ActivityMainBinding

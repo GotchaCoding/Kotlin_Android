@@ -98,5 +98,57 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.369" />
 
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="프래그먼트"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Button
+        android:id="@+id/btn_viewPager"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="뷰페이져"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Button
+        android:id="@+id/btn_drawerLayout"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="드로어레이아웃"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/btn_jetpack"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="doit:제트팩"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.614" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
